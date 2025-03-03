@@ -1,6 +1,6 @@
 public with sharing class CopadoDemoClass {
-    // deployed from vs code
-    public CopadoDemoClass() {
-        String name;
+    // Static method, no instance variable needed
+    public static String method1(String name){
+        return name;
     }
 }
