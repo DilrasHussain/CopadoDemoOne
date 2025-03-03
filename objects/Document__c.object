@@ -164,18 +164,6 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Partner__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <label>Partner</label>
-        <referenceTo>Partner__c</referenceTo>
-        <relationshipLabel>Documents</relationshipLabel>
-        <relationshipName>Documents</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Base64_Data__c</fullName>
         <label>Base64 Data</label>
         <length>32768</length>
@@ -183,6 +171,17 @@
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Discount_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount Type</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Document_Status__c</fullName>
